@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>ART ZONE!</title>
+      <link rel="shortcut icon"  href="drawing.html/favicon.png.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+      
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css"hrhttps://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.cssef="" >    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src=" https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>    
+      
+      <style type="text/css">
+          
+          .white{
+              color: white;
+          }
+          .all{
+              padding: 5em;
+              margin-top: 50px;
+              margin-bottom: 50px;
+              transition:.2s;
+             }
+          .container{
+              margin-top: 50px;
+              margin-bottom: 50px;
+              text-align: center;
+          }  
+          .item{
+              border: 1px solid white;
+              border-radius: 2px;
+              padding-top: 1%;
+            
+          }
+          .item:hover{
+              filter: brightness(80%);
+          }
+          .item{
+              transition: .5s ease-in-out;
+              transform: scale(1.2);
+            
+          }
+          .body{
+              margin: 0;
+              padding: 0;
+          }
+        
+      </style>
+  </head>
+  <body>
+<!--    nav start-->
+      <nav class="navbar navbar-expand-sm  navbar-dark bg-dark ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Jessy's Gallery</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+      </nav><!--nav ends-->
+      <div class="container.fluid" style="padding: 4em ;background-image: url(drawing.html/cover.jpeg);background-size: cover;background-repeat: no-repeat">
+      <h1 class="display-1 text-center white" style="font-weight:400">ART BY JESSY</h1>
+          
+      <figure class="text-center">
+  <blockquote class="blockquote white ">
+    <p>Artists are just children who refuses to put down their crayons..</p>
+  </blockquote>
+  
+</figure>
+      </div>
+      
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active all">
+      <figure class="text-center">
+  <blockquote class="blockquote">
+      <p><b>Hey there! Welcome to my Website..</b></p>
+  </blockquote>
+  <figcaption class="blockquote">
+    My name is Jesima, an engineering Student and amateur Artist.
+  </figcaption>
+        </figure>
+    </div>
+    <div class="carousel-item all">
+     <figure class="text-center">
+  <blockquote class="blockquote">
+    <p>When you support a small business you are supporting a dream</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    "Support the makers" 
+  </figcaption>
+</figure> <figure class="text-center">
+  <blockquote class="blockquote">
+    <p>SHOP SMALL TO GROW YOUR COMMUNITY</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+     <cite title="Dream">ig:@art_by_jessy</cite>
+  </figcaption>
+</figure>
+    </div>
+
+    
+  
+<div class="carousel-item all">
+<figure class="text-center">
+  <blockquote class="blockquote">
+    
+ <p>Customized Portraits, Wall paintings, Gift cards,
+   <br>  Stone Art, Mural painting, <br>
+     Journals are available here</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+      <p>Every small purchases make a big difference!</p>
+  </figcaption>
+    </figure></div></div>
+    
+    
+    <div class="container fluid bg-dark">
+        <h1 style="text-align: center;font-size: 35px;color: floralwhite; font-weight: bold;margin-bottom: 50px; margin-top: 50px;">Top 9 !</h1>
+    <div class="row">
+        <div class="item col-sm-6 col-md-4 mb-3"><a href="drawing.html/thatha.jpg.jpg" class="fancybox" data-fancybox="gallery"><img src="drawing.html/thatha.jpg.jpg"width="150px" height="200px" ></a></div>
+        
+     <div class="item col-sm-6 col-md-4 mb-3"><a href="drawing.html/vj.jpg.jpg" class="fancybox" data-fancybox="gallery"><img src="drawing.html/vj.jpg"width="150px" height="200px" ></a></div>
+     
+     <div class="item col-sm-6 col-md-4 mb-3"><a href="drawing.html/alia.jpg" class="fancybox" data-fancybox="gallery"><img src="drawing.html/alia.jpg"width="150px" height="170px" ></a></div>
+ 
+        
+    <div class="item col-sm-6 col-md-4 mb-3"><a href="drawing.html/9.jpg" class="fancybox" data-fancybox="gallery"><img src="drawing.html/9.jpg"width="150px" height="150px" ></a></div>
+ 
+     <div class="item col-sm-6 col-md-4 mb-3"><a href="drawing.html/aladin.jpg" class="fancybox" data-fancybox="gallery"><img src="drawing.html/aladin.jpg"width="170px" height="150px" ></a></div>
+    
+     <div class="item col-sm-6 col-md-4 mb-3"><a href="drawing.html/thala.jpg" class="fancybox" data-fancybox="gallery"><img src="drawing.html/thala.jpg"width="150px" height="130px" ></a></div>
+    
+      <div class="item col-sm-6 col-md-4 mb-3"><a href="drawing.html/penny.jpg" class="fancybox" data-fancybox="gallery"><img src="drawing.html/penny.jpg"width="150px" height="200px" ></a></div>
+    
+             
+      <div class="item col-sm-6 col-md-4 mb-3"><a href="drawing.html/joker.jpg" class="fancybox" data-fancybox="gallery"><img src="drawing.html/joker.jpg"width="150px" height="200px" ></a></div>
+    
+      
+ <div class="item col-sm-6 col-md-4 mb-3"><a href="drawing.html/cityscape.jpg" class="fancybox" data-fancybox="gallery"><img src="drawing.html/cityscape.jpg"width="150px" height="150px"></a></div>
+        
+        
+</div>
+</div>
+    
+ <div class="container-fluid bg-light mt-5 mb-5 pb-5 pt-5">
+     <div class="row">
+ <div class="col align-self-start mt-5">
+    <div class="card mx-auto" style="width: 12rem;">
+  <img src="drawing.html/paintcard.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Painting</h5>
+    <p class="card-text">Acrylic ,Water color ,Gouche ,Oil paintings </p>
+    <a href="https://instagram.com/art_by_jessy?igshid=25x1dgjszxd2" class="btn btn-primary">To see more..</a>
+        </div></div>
+</div> <br>
+<div class="col align-self-start mt-5">
+   <div class="card mx-auto" style="width: 12rem;"  >
+     
+  <img src="drawing.html/calli.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Calligraphy</h5>
+    <p class="card-text">Calligraphic quotes ,caricature,doodles </p>
+    <a href="https://instagram.com/art_by_jessy?igshid=25x1dgjszxd2" class="btn btn-primary">To see more..</a>
+       </div></div>
+</div><br>
+<div class="col align-self-start mt-5">
+       
+       <div class="card mx-auto" style="width: 12rem;">
+  <img src="drawing.html/cs.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">carvings</h5>
+    <p class="card-text">Pencil lead / chalk carvings are also available</p>
+    <a href=""https://instagram.com/art_by_jessy?igshid=25x1dgjszxd2 class="btn btn-primary">To see more..</a>
+  </div>
+</div>
+       
+       </div>
+       
+       
+       
+       
+       </div></div>
+     
+     
+     
+     </div>
+     
+     <footer class="bg-light text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">art_by_jessy.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+ 
+  </body>
+</html>
